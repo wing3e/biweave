@@ -1,0 +1,98 @@
+[
+  {
+    "configuration": "BiWeave",
+    "target_CPU_seconds": 2.0,
+    "complete": true,
+    "completed_chains": 4,
+    "metrics": {
+      "Sigma_PMF_TV_allouter": 0.006108473556093856,
+      "cell_presence_RMSE_all": 0.00211823891063221,
+      "pair_tail_RMSE_informative": 2.1953649805257496e-05,
+      "cell_presence_relative_RMSE_informative": 2.8203356619696454,
+      "pair_tail_relative_RMSE_informative": 1.0
+    },
+    "actual_CPU_mean": 2.266334,
+    "spent_CPU_known": 9.065336,
+    "unknown_costs": 0
+  },
+  {
+    "configuration": "w/o capacity guidance",
+    "target_CPU_seconds": 2.0,
+    "complete": true,
+    "completed_chains": 4,
+    "metrics": {
+      "Sigma_PMF_TV_allouter": 0.869945994317626,
+      "cell_presence_RMSE_all": 0.0025095640777693003,
+      "pair_tail_RMSE_informative": 0.24006623340354308,
+      "cell_presence_relative_RMSE_informative": 3.6936076414528936,
+      "pair_tail_relative_RMSE_informative": 373681374.9289658
+    },
+    "actual_CPU_mean": 1.95554475,
+    "spent_CPU_known": 7.822179,
+    "unknown_costs": 0
+  },
+  {
+    "configuration": "BiWeave",
+    "target_CPU_seconds": 10.0,
+    "complete": true,
+    "completed_chains": 4,
+    "metrics": {
+      "Sigma_PMF_TV_allouter": 0.0037846618869842768,
+      "cell_presence_RMSE_all": 0.0023796406609179286,
+      "pair_tail_RMSE_informative": 2.780612688031025e-05,
+      "cell_presence_relative_RMSE_informative": 3.051564733372467,
+      "pair_tail_relative_RMSE_informative": 1.133117997928946
+    },
+    "actual_CPU_mean": 10.751182,
+    "spent_CPU_known": 43.004728,
+    "unknown_costs": 0
+  },
+  {
+    "configuration": "w/o capacity guidance",
+    "target_CPU_seconds": 10.0,
+    "complete": true,
+    "completed_chains": 4,
+    "metrics": {
+      "Sigma_PMF_TV_allouter": 0.35370605463291693,
+      "cell_presence_RMSE_all": 0.0017720317766760515,
+      "pair_tail_RMSE_informative": 0.033913944823939564,
+      "cell_presence_relative_RMSE_informative": 2.4972916632696673,
+      "pair_tail_relative_RMSE_informative": 992.3242090032415
+    },
+    "actual_CPU_mean": 9.96316575,
+    "spent_CPU_known": 39.852663,
+    "unknown_costs": 0
+  },
+  {
+    "configuration": "BiWeave",
+    "target_CPU_seconds": 30.0,
+    "complete": true,
+    "completed_chains": 4,
+    "metrics": {
+      "Sigma_PMF_TV_allouter": 0.0022541644981348558,
+      "cell_presence_RMSE_all": 0.0015833889872915517,
+      "pair_tail_RMSE_informative": 1.9073373216243705e-05,
+      "cell_presence_relative_RMSE_informative": 2.1875252579681965,
+      "pair_tail_relative_RMSE_informative": 0.9562646177056362
+    },
+    "actual_CPU_mean": 29.094245750000002,
+    "spent_CPU_known": 116.37698300000001,
+    "unknown_costs": 0
+  },
+  {
+    "configuration": "w/o capacity guidance",
+    "target_CPU_seconds": 30.0,
+    "complete": true,
+    "completed_chains": 4,
+    "metrics": {
+      "Sigma_PMF_TV_allouter": 0.07545818591364437,
+      "cell_presence_RMSE_all": 0.0016289109810384414,
+      "pair_tail_RMSE_informative": 2.1953649805257496e-05,
+      "cell_presence_relative_RMSE_informative": 2.250646552401202,
+      "pair_tail_relative_RMSE_informative": 1.0
+    },
+    "actual_CPU_mean": 29.67741325,
+    "spent_CPU_known": 118.709653,
+    "unknown_costs": 0
+  }
+]

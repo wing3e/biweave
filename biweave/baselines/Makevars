@@ -1,0 +1,5 @@
+CXXFLAGS = -O3 -fPIC -pipe -fno-fast-math
+CXX11FLAGS = -O3 -fPIC -pipe -fno-fast-math
+CXX14FLAGS = -O3 -fPIC -pipe -fno-fast-math
+CXX17FLAGS = -O3 -fPIC -pipe -fno-fast-math
+CXX20FLAGS = -O3 -fPIC -pipe -fno-fast-math

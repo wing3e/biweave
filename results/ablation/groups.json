@@ -1,0 +1,592 @@
+[
+  {
+    "display": "Cyclic",
+    "ablation": "none",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.35091033854527004,
+        "sample_SD": 0.0014361997111875685,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.003722771203009029,
+        "sample_SD": 0.00039563980342366796,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0029480702852504445,
+        "sample_SD": 0.0004996355120579717,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "cyclic",
+      "ablation": "none",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 2.099813,
+      "values": [
+        2.103202,
+        2.111984,
+        2.072875,
+        2.081531,
+        2.1137569999999997,
+        2.089104,
+        2.098485,
+        2.127566
+      ],
+      "qualified": true
+    },
+    "case_id": "cyclic"
+  },
+  {
+    "display": "Cyclic",
+    "ablation": "local",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.3715550041720652,
+        "sample_SD": 0.010682533076302127,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.014052320884860742,
+        "sample_SD": 0.002270125245511393,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.015278845426731061,
+        "sample_SD": 0.0040419043011184815,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": 0.020644665626795143,
+        "sample_SD": 0.010967185384435356,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.010329549681851713,
+        "sample_SD": 0.002384142762972843,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.012330775141480616,
+        "sample_SD": 0.004226739369876533,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "cyclic",
+      "ablation": "local",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 2.1008875,
+      "values": [
+        2.0930999999999997,
+        2.092722,
+        2.13383,
+        2.082403,
+        2.073035,
+        2.137366,
+        2.092466,
+        2.102178
+      ],
+      "qualified": true
+    },
+    "case_id": "cyclic"
+  },
+  {
+    "display": "Cyclic",
+    "ablation": "exchange",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.33033377727042107,
+        "sample_SD": 0.002304673314083273,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.00632138396109234,
+        "sample_SD": 0.001073627668362785,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0054047579996397924,
+        "sample_SD": 0.0015849635311236223,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": -0.020576561274848956,
+        "sample_SD": 0.0031632255427199883,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0025986127580833107,
+        "sample_SD": 0.001086933923880323,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.002456687714389348,
+        "sample_SD": 0.0020093913838373422,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "cyclic",
+      "ablation": "exchange",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 2.0910165,
+      "values": [
+        2.115462,
+        2.104294,
+        2.097711,
+        2.0186859999999998,
+        2.097081,
+        2.096949,
+        2.113629,
+        2.08432
+      ],
+      "qualified": true
+    },
+    "case_id": "cyclic"
+  },
+  {
+    "display": "Cyclic",
+    "ablation": "coverage",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.3024796735767216,
+        "sample_SD": 0.0007183813704158353,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0029991778489102793,
+        "sample_SD": 0.000548326680205852,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.002559130876788895,
+        "sample_SD": 0.0006724384592897151,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": -0.048430664968548434,
+        "sample_SD": 0.0019082920934065796,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": -0.0007235933540987499,
+        "sample_SD": 0.000768234744293216,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": -0.00038893940846154934,
+        "sample_SD": 0.00035891934537252607,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "cyclic",
+      "ablation": "coverage",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 2.10521425,
+      "values": [
+        2.1193079999999997,
+        2.1205950000000002,
+        2.111187,
+        2.076373,
+        2.103418,
+        2.083487,
+        2.114512,
+        2.1128340000000003
+      ],
+      "qualified": true
+    },
+    "case_id": "cyclic"
+  },
+  {
+    "display": "Retail",
+    "ablation": "none",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.006563790560471967,
+        "sample_SD": 0.0007868731069739145,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0009589029738252574,
+        "sample_SD": 9.408926793512312e-05,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0011390123593657828,
+        "sample_SD": 0.0004690356196039508,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "retail",
+      "ablation": "none",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 2.046076625,
+      "values": [
+        2.048417,
+        2.016193,
+        2.045946,
+        2.062801,
+        2.038159,
+        2.03291,
+        2.059502,
+        2.064685
+      ],
+      "qualified": true
+    },
+    "case_id": "retail"
+  },
+  {
+    "display": "Retail",
+    "ablation": "local",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.06515003109452737,
+        "sample_SD": 0.03144278929533979,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.012743429148082767,
+        "sample_SD": 0.009150440443336533,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.035901118057091695,
+        "sample_SD": 0.024731458936735028,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": 0.0585862405340554,
+        "sample_SD": 0.03128295784969642,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.01178452617425751,
+        "sample_SD": 0.009133130717762374,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.03476210569772591,
+        "sample_SD": 0.024872653221679877,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "retail",
+      "ablation": "local",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 2.01926325,
+      "values": [
+        2.015358,
+        2.004122,
+        2.020793,
+        2.042007,
+        2.00802,
+        1.995179,
+        2.043761,
+        2.024866
+      ],
+      "qualified": true
+    },
+    "case_id": "retail"
+  },
+  {
+    "display": "Retail",
+    "ablation": "exchange",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.006504424778761057,
+        "sample_SD": 0.0009594557638977515,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0009209666070999834,
+        "sample_SD": 0.0002351156365268829,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0013553496925005806,
+        "sample_SD": 0.000677383688844447,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": -5.936578171091087e-05,
+        "sample_SD": 0.0015331689914097407,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": -3.793636672527405e-05,
+        "sample_SD": 0.00017639790761986204,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.00021633733313479778,
+        "sample_SD": 0.0009507962256067994,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "retail",
+      "ablation": "exchange",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 1.9758728749999999,
+      "values": [
+        1.954707,
+        1.9777799999999999,
+        1.971258,
+        2.003659,
+        1.9722469999999999,
+        1.969903,
+        1.9622359999999999,
+        1.995193
+      ],
+      "qualified": true
+    },
+    "case_id": "retail"
+  },
+  {
+    "display": "Retail",
+    "ablation": "coverage",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.005279535864978903,
+        "sample_SD": 0.00042112790869714973,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.000754432383007006,
+        "sample_SD": 0.0002796397239866014,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0010537421978541503,
+        "sample_SD": 0.0006140570926527414,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": -0.001284254695493065,
+        "sample_SD": 0.0008677803839511412,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": -0.0002044705908182514,
+        "sample_SD": 0.0002692008940525423,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": -8.527016151163257e-05,
+        "sample_SD": 0.0005676672886380307,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "retail",
+      "ablation": "coverage",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 1.8986459999999998,
+      "values": [
+        1.8748789999999997,
+        1.9560479999999998,
+        1.90086,
+        1.9154479999999998,
+        1.8937970000000002,
+        1.9160769999999998,
+        1.8712909999999998,
+        1.8607679999999998
+      ],
+      "qualified": true
+    },
+    "case_id": "retail"
+  },
+  {
+    "display": "Forest",
+    "ablation": "none",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.0016041666666666635,
+        "sample_SD": 0.0011514338240604406,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0009261660568250228,
+        "sample_SD": 0.0006647806282753356,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0016041666666666565,
+        "sample_SD": 0.0011514338240604363,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.0,
+        "sample_SD": 0.0,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "forest",
+      "ablation": "none",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 2.00482325,
+      "values": [
+        2.033805,
+        2.01105,
+        1.973708,
+        2.0016089999999997,
+        1.994885,
+        2.014132,
+        1.985261,
+        2.024136
+      ],
+      "qualified": true
+    },
+    "case_id": "forest"
+  },
+  {
+    "display": "Forest",
+    "ablation": "coverage",
+    "complete": 8,
+    "registered": 8,
+    "metrics": {
+      "full_F_TV": {
+        "mean": 0.5,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.28867513459481287,
+        "sample_SD": 0.0,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.5,
+        "sample_SD": 0.0,
+        "n": 8
+      }
+    },
+    "paired_deletion_minus_full": {
+      "full_F_TV": {
+        "mean": 0.49839583333333337,
+        "sample_SD": 0.0011514338240604367,
+        "n": 8
+      },
+      "cell_RMSE": {
+        "mean": 0.2877489685379878,
+        "sample_SD": 0.0006647806282753328,
+        "n": 8
+      },
+      "tail_RMSE_nonconstant": {
+        "mean": 0.49839583333333337,
+        "sample_SD": 0.0011514338240604365,
+        "n": 8
+      }
+    },
+    "CPU": {
+      "case": "forest",
+      "ablation": "coverage",
+      "complete": 8,
+      "registered": 8,
+      "mean_CPU": 1.964405625,
+      "values": [
+        1.9688439999999998,
+        1.9749910000000002,
+        1.967519,
+        1.975087,
+        1.9692519999999998,
+        1.917923,
+        1.9739039999999999,
+        1.967725
+      ],
+      "qualified": true
+    },
+    "case_id": "forest"
+  }
+]

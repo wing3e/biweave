@@ -1,0 +1,9 @@
+build/
+output/
+external/
+biweave/baselines/generated_*/
+.venv/
+__pycache__/
+*.pyc
+*.o
+*.so

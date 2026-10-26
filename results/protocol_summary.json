@@ -1,0 +1,78 @@
+{
+  "finite": {
+    "replicates": 5,
+    "seeds_hex": [
+      "0x78c3ddb9",
+      "0x78c3ddbb",
+      "0x78c3ddbf",
+      "0x78c3ddc1",
+      "0x78c3ddc5"
+    ],
+    "burn_fraction": 0.2,
+    "synthetic_target_cpu_seconds": 2,
+    "web_and_analytic_target_cpu_seconds": 10,
+    "include_holds": true,
+    "cost_only_calibration": true
+  },
+  "budget": {
+    "graphs_per_family": 20,
+    "targets_cpu_seconds": [
+      0.5,
+      0.75,
+      1,
+      1.5,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120
+    ]
+  },
+  "decision": {
+    "graphs": 100,
+    "replicates": 5,
+    "targets_cpu_seconds": [
+      2,
+      4,
+      8,
+      12,
+      16,
+      24,
+      30
+    ],
+    "threshold": "1/20"
+  },
+  "ablation": {
+    "graphs": 3,
+    "chains": 80,
+    "replicates": 8,
+    "burn_rounds": 1000,
+    "target_cpu_seconds": 2,
+    "deleted_operation_removed_at_all_call_sites": true
+  },
+  "selector": {
+    "graphs": 1,
+    "chains": 24,
+    "replicates": 4,
+    "targets_cpu_seconds": [
+      2,
+      10,
+      30
+    ],
+    "burn_fraction": 0.2
+  },
+  "real": {
+    "graphs": 40,
+    "replicates": 5,
+    "target_cpu_seconds": 480,
+    "diagnostic_statistics": 3
+  }
+}

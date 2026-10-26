@@ -1,0 +1,16 @@
+[
+  {
+    "case": "forest",
+    "ablation": "local",
+    "equivalent_to": "none",
+    "timed_chains": 0,
+    "reason": "Fixed-margin forest route bypasses local reconfiguration; every state has distinct edge weights, so switching is identity."
+  },
+  {
+    "case": "forest",
+    "ablation": "exchange",
+    "equivalent_to": "none",
+    "timed_chains": 0,
+    "reason": "Fixed-margin forest route bypasses local reconfiguration; every state has distinct edge weights, so switching is identity."
+  }
+]
