@@ -16,7 +16,3 @@ artist–song, or visitor–page graphs that underpin many Web applications.
 ## License
 
 TBD
-
-## Contact
-
-Open a GitHub issue, or reach the maintainer at [@wing3e](https://github.com/wing3e).
